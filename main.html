@@ -3,20 +3,23 @@
 <head>
 	<title>Hello, World</title>
 	<link rel="stylesheet" href="styles.css">
-</head>
+	<style>
 
+		
+	</style>
+</head>
 <body>
 <div class="container">
 	<h1>Dog Adoption Applicaton</h1>
 	<form action="/submit-application" method="post">
 		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="Uday" required><br>
+		<input type="text" id="name" name="name" placeholder="Uday" required>
 		
-		<label for="text">Phone Number</label>
-		<input type="text" id="phone" placeholder="9347713312" required><br>
+		<label for="phone">Phone Number</label>
+		<input type="text" id="phone" name="phone" placeholder="9347713312" required>
 		
-		<label for="text">Address</label>
-		<input type="text" id="address" placeholder="Banglore" required><br>
+		<label for="address">Address</label>
+		<input type="text" id="address" name="address" placeholder="Banglore" required>
 		
 		<input type="checkbox" id="checkbox" name="name" placeholder="Name" value="Have you ever lived with a Dog before?" required>
 		
@@ -25,7 +28,7 @@
 			<option>1</option>
 			<option>2</option>
 			<option>3</option>
-		</select><br>
+		</select>
 
 		<input type="submit" value="Submit" id="submit">
 	</form>
