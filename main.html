@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+<div class="container">
 	<h1>Dog Adoption Applicaton</h1>
 	<form action="/submit-application" method="post">
 		<label for="name">Name</label>
@@ -18,6 +18,7 @@
 		<input type="text" id="address" placeholder="Banglore" required><br>
 		
 		<input type="checkbox" id="checkbox" name="name" value="Have you ever lived with a Dog before?" required>
+		
 		<label for="multiSelect">Please select your preferred breeds</label>
 		<select id="multiSelect" type="select">
 			<option>1</option>
@@ -25,12 +26,10 @@
 			<option>3</option>
 		</select><br>
 
-		<button type="submit">Submit</button>
+		<input type="submit" value="Submit" id="submit">
 	</form>
-
+</div>
 </body>
-
-</html>
 
 
 
